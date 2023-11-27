@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StadiumWeatherWebsiteDesign.css" />
+    <script src="StadiumWeatherWebsiteJSCode.js" defer></script>
+    <title>Stadium Weather App</title>
+</head>
+
+<body>
+    <div class="view-order">
+        <div class="weather-app">
+            <header>
+                <i class="bx bx-left-arrow-alt"></i>
+                <h1>Stadium Weather App</h1>
+            </header>
+            <section id="subtitleFormat">
+                <h4 id="subtitleText">Find the weather at a stadium by searching below the city .</h4>
+            </section>
+            <section class="search-section">
+                <div class="search-container">
+                    <form id="searchForm">
+                        <input id="cityInput" type="text" placeholder="  Enter city name" spellcheck="false" required />
+                        <button type="button" class="search-button">Search</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+        <div class="stadium-buttons-container" style="display: none;"></div>
+        <div class="weather-details" style="display: none;"></div>
+    </div>
+</body>
+</html>
